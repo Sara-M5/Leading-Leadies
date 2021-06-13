@@ -1,0 +1,17 @@
+.cards{
+    border-radius: 15px;
+    background: rgba(43, 98, 201, 0.06);
+    width:350px;
+    height:350px;
+    box-sizing:border-box;
+    border-radius: 15px;
+    box-shadow: 0  4px 4px 2px rgba(25, 25, 25, .1);
+    padding: 20px;
+
+}
+.cards-wrapper{
+padding-top: 90px;
+}
+
+
+

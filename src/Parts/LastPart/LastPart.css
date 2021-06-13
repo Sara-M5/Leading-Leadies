@@ -1,0 +1,22 @@
+.colL{
+    width:300px;
+    margin-top: 100px;
+}
+.col{
+   
+    margin: 100px 0 0 20px;
+    line-height: 15px;
+}
+.footer{
+    background-color: #343a40;
+    text-align: center;
+    padding:10px;
+  }
+  
+  .nav-link{
+      color: #808080;
+
+  }
+  .nav-link:hover{
+      color:red;
+  }

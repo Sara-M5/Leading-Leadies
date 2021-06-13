@@ -1,0 +1,56 @@
+.blog{
+    border-radius: 15px;
+    width:350px;
+    height:450px;
+    box-sizing:border-box;
+    border-radius: 15px;
+    box-shadow: 0  4px 4px 2px rgba(25, 25, 25, .1);
+    
+}
+
+    .photos{
+        display:block; 
+        width:350px;
+        top:0;
+        left:0;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        background-size: cover;
+        box-sizing:content-box;
+      
+       
+    }
+    .img-gal{
+        background:#000; 
+        width:100%;
+        overflow:hidden;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    
+    }
+ 
+    .img-gal img{
+        max-width: 100%;
+        width:100%;
+        height:200px;
+        transform:scale(1.3);
+        transition:all 1.6s;
+        margin-left: 20px;
+       
+    
+    }
+    
+    .img-gal img:hover{
+        transform:scale(1.5);
+        cursor: pointer;
+    }
+    .Group{
+        display:inline-block;
+ 
+    }
+   .date{
+        padding-top:15px;
+        padding-bottom:15px;
+        color:red;
+    }
