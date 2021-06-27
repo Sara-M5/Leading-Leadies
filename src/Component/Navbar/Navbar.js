@@ -24,7 +24,7 @@ const Navbar = () => {
           className="collapse navbar-collapse justify-content-end"
           id="navbarSuportedContent"
         >
-          <ul className="navbar-nav ">
+          <ul className="navbar-nav">
             <li className="nav-item active ">
               <NavLink className="nav-link" to="/Home" exact>
                 Home
@@ -44,7 +44,7 @@ const Navbar = () => {
               >
                 Themes
               </NavLink>
-              <div className="dropdown-menu ">
+              <div className="dropdown-menu">
                 <NavLink to="#" className="dropdown-item text-dark btn1">
                   Shop Full Width
                 </NavLink>

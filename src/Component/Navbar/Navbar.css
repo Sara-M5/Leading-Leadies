@@ -2,7 +2,7 @@
   width: 100px;
   height: 100px;
 }
-ul li:not(:last-child) {
+.navbar-nav li:not(:last-child) {
   margin-right: 50px;
 }
 .btn1 {
