@@ -2,7 +2,6 @@ import {  faEnvelope, faLocationArrow, faPhone,} from '@fortawesome/free-solid-s
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import  React from 'react';
 import Header from '../../Parts/Header';
-import JoinUsToday from '../../Parts/JoinUsToday/JoinUsToday';
 import LastPart from '../../Parts/LastPart/LastPart';
 import './Contact.css'
 const Contact = () => {
@@ -73,7 +72,17 @@ const Contact = () => {
           </div>
           </div>
          
-         <JoinUsToday />
+          <div className="join">
+        <div className="row">
+          <div className="d-flex justify-content-between">
+            <h1 className="textColor">Join Us Today </h1>
+            <button className="btn px-4">Join Us Today</button>
+          </div>
+          <div>
+            <p className="textColor">
+              Over 75,000 designers and developers trust the DigiMarket.
+            </p>
+          </div>
           <LastPart />
          
       
