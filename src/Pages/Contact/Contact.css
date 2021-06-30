@@ -1,0 +1,29 @@
+.form-control{
+    border-radius: 26px;
+}
+.map{
+    width:550px;
+    height:640px;
+}
+.section1{
+    background-color: #FAFAFA;
+    padding:100px 0;
+}
+.EmailAdress{
+    background-color: #fff;
+}
+.contactIcon{
+    width: 70px;
+    height:50px;
+    border-radius: 50%;
+    color: #FAFAFA;
+    background: linear-gradient(to right, #FF416C, #FF4B2B);
+    font-size: 50px;
+    padding:0 12px;
+    margin-top: 45px;
+    border: 1px solid;
+    
+}
+.contactCard {
+    background: #FAFAFA;
+}
