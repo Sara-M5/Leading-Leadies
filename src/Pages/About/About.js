@@ -99,8 +99,17 @@ const About = ()  => {
           />
           </div>
          
-
-      <JoinUsToday />
+        <div className="join">
+        <div className="row">
+          <div className="d-flex justify-content-between">
+            <h1 className="textColor">Join Us Today </h1>
+            <button className="btn px-4">Join Us Today</button>
+          </div>
+          <div>
+            <p className="textColor">
+              Over 75,000 designers and developers trust the DigiMarket.
+            </p>
+          </div>
        <LastPart />
     </div>
 
