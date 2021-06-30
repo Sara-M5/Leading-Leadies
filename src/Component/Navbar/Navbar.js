@@ -37,7 +37,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item dropdown">
               <NavLink
-                to="/Themes"
+                to="#"
                 className="nav-link dropdown-toggle"
                 data-toggle="dropdown"
                 exact
@@ -45,20 +45,18 @@ const Navbar = () => {
                 Themes
               </NavLink>
               <div className="dropdown-menu">
-                <NavLink to="#" className="dropdown-item text-dark btn1">
+                <NavLink to="/ShopFullWidth" className="dropdown-item text-dark btn1">
                   Shop Full Width
                 </NavLink>
-                <NavLink to="#" className="dropdown-item text-dark btn1">
-                  Shop Left Sidebar
-                </NavLink>
-                <NavLink to="#" className="dropdown-item text-dark btn1">
+                
+                <NavLink to="/ShopRightSidebar" className="dropdown-item text-dark btn1">
                   Shop Right Sidebar
                 </NavLink>
               </div>
             </li>
             <li className="nav-item dropdown">
               <NavLink
-                to="/Pages"
+                to="#"
                 className="nav-link dropdown-toggle"
                 data-toggle="dropdown"
                 exact
@@ -67,18 +65,18 @@ const Navbar = () => {
               </NavLink>
               <div className="dropdown-menu ">
                 <NavLink
-                  to="#"
+                  to="/Service"
                   className="dropdown-item text-dark btn-light btn1"
                 >
                   Services
                 </NavLink>
-                <NavLink to="#" className="dropdown-item text-dark btn1">
+                <NavLink to="/PricingPlan" className="dropdown-item text-dark btn1">
                   Pricing Plan
                 </NavLink>
-                <NavLink to="#" className="dropdown-item text-dark btn1">
+                <NavLink to="/Team" className="dropdown-item text-dark btn1">
                   Team
                 </NavLink>
-                <NavLink to="#" className="dropdown-item text-dark btn1">
+                <NavLink to="/Blog" className="dropdown-item text-dark btn1">
                   Blog
                 </NavLink>
               </div>
