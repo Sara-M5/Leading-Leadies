@@ -6,7 +6,7 @@ import LastPart from '../../Parts/LastPart/LastPart';
 import Teams from './Teams'
 import './About.css';
 import Header from '../../Parts/Header';
-import JoinUsToday from '../../Parts/JoinUsToday/JoinUsToday';
+
 
 const About = ()  => {
     return (
