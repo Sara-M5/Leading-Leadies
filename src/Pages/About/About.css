@@ -1,0 +1,23 @@
+
+
+   .Asset{
+       width:100%;
+       height:auto;
+      
+   }
+   .Picture{
+       width:300px;
+       border-radius: 6px;
+       position: relative;
+     
+   }
+   .tijarah-team-content{
+    padding-top: 50px;
+    margin-bottom: 300px;
+    width:300px;
+    position: absolute;
+    margin-left:50px;
+    background: #fff;
+    box-shadow: 5.994px 14.835px 30px 0px rgba(97, 105, 140, 0.1);
+    }
+  
