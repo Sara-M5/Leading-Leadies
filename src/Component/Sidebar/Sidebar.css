@@ -1,0 +1,27 @@
+.border-bottom{
+    border-bottom: 1px solid #FAFAFA;
+    
+    }
+    
+    .line{
+        border-bottom: 2px solid #FF416C ;
+        margin-bottom: 2px;
+    
+    }
+    
+    .line3{
+        border-bottom: 2px solid#FF416C ;
+        margin-bottom: 8px;
+    }
+
+    
+.item, .count{
+    color:#8a8a8a;
+    padding: 6px 0;
+    line-height: 29px;
+    
+    }
+    
+    .item:hover{
+        color:#FF416C;
+    }
