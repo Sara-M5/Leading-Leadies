@@ -33,7 +33,7 @@ const About = ()  => {
     <div className="section">
     <Text title="Our Awesome Team" />
     
-     <div className="row mb-5 py-4">
+     <div className="row grid-3">
          <Teams 
          image="images/3(1).JPG"
          name="Sanam Hamza"
@@ -57,7 +57,7 @@ const About = ()  => {
 
     
 
-     <div className="row">
+     <div className="row center">
        
           <div className="col-md-3">
           <Description
@@ -110,6 +110,8 @@ const About = ()  => {
               Over 75,000 designers and developers trust the DigiMarket.
             </p>
           </div>
+        </div>
+       </div>
        <LastPart />
     </div>
 
