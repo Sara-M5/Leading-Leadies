@@ -5,9 +5,9 @@ const Product = () => {
     return (
 
       <div className="container">
-         <div className="row">
-           <div className="col-md-4">
-           <Cards 
+         <div className="row grid-3">
+           
+                  <Cards 
                   title= "MyAgency"
                   images= "../images/2.JPG"
                   newPrice= "&#36;59.00  &ndash; &#36;199.00"
@@ -17,26 +17,22 @@ const Product = () => {
                   title= "BenchMark"
                   images="../images/5.JPG"
                   newPrice= "&#36;159.00 &ndash; &#36;199.00"
-                  text="Photography WordPress Theme"
-                  
-               />
+                  text="Photography WordPress Theme" />
+        
                   <Cards 
                   title = "Avtorai"
                   images="../images/8.JPG"
                   newPrice= "$40.00"
                   text="Photography WordPress Theme" />
 
-                </div>
-            
-
-
-             <div className="col-md-4">
-           <Cards
+              
+                  <Cards
                   title="AppSo"
                   images="../images/3.JPG"
                   newPrice="&#36;39.00"
                   text="Photography WordPress Theme" />
-                   <Cards 
+                  
+                  <Cards 
                   title=  "Instive"
                   images="../images/6.JPG"
                   newPrice="$39.00"
@@ -48,11 +44,8 @@ const Product = () => {
                   newPrice= "$20.00"
                   oldPrice="$40.00"
                   text="Photography WordPress Theme"/>
-          </div>
          
-      
-          <div className="col-md-4">
-               <Cards
+                <Cards
                  title= "Munio"
                  images="../images/4.JPG"
                  newPrice=" &#36;19.00"
@@ -61,22 +54,22 @@ const Product = () => {
              
 
                 <Cards 
-                  title="Fourmusic"
-                  images="../images/7.JPG"
-                  newPrice="&#36;69.00"
-                  text="Photography WordPress Theme" />
+                 title="Fourmusic"
+                 images="../images/7.JPG"
+                 newPrice="&#36;69.00"
+                 text="Photography WordPress Theme" />
               
 
                 <Cards 
-                  title= "Daeron"
-                  images="../images/10.JPG"
-                  newPrice= "$59.00"
-                  oldPrice="$79.00"
-                  text="Photography WordPress Theme" />
+                 title= "Daeron"
+                 images="../images/10.JPG"
+                 newPrice= "$59.00"
+                 oldPrice="$79.00"
+                 text="Photography WordPress Theme" />
               
-             </div>
-             </div>
-          </div>
+           
+            </div> 
+         </div>
 
     );
 }
