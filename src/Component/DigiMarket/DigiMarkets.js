@@ -1,59 +1,53 @@
-import {  faCode, faGamepad, faLightbulb, faPuzzlePiece, faThumbsUp } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
-import DigiMarket from './DigiMarket';
+import './DigiMarket.css';
 
 const DigiMarkets = () => {
     return(
   <div className="container">
       
-      <div className="row text-left">
-      
-      <DigiMarket 
-       style={{background:'rgba(144, 19, 254, 0.06)'}} 
-        icon={faCode}
-        title="We are Open Source"
-        text="Lorem ipsum dummy text in print and website industry are usually use in these section"
-     
-      />
-
-      <DigiMarket  
-       style={{background:'rgba(43, 98, 201, 0.06)'}}
-        icon={faLightbulb}
-        title="Problem Solvers"
-        text="Lorem ipsum dummy text in print and website industry are usually use in these section"
-     />
-
-      <DigiMarket 
-      style={{background:'rgba(26, 188, 156, 0.06)'}}
-        icon={faThumbsUp}
-        title= "Highly-Rated Support"
-        text="Lorem ipsum dummy text in print and website industry are usually use in these section"
-        alt="HighlyRated"
-     />
-      </div>
-
       <div className="row">
-       <DigiMarket 
-       icon={faPuzzlePiece}
-        style={{background:'rgba(26, 188, 156, 0.06)'}} 
-        title= "Feature-Rich Free And Pro Plugins"
-        text="Lorem ipsum dummy text in print and website industry are usually use in these section"
-      />
+
+         <div className="cards mb-5" style={{background:"rgba(144, 19, 254, 0.06)"}}>
+          <i className="codeIcon fas fa-code mt-4"></i>
+          <h5 style={{color:"#7D6E9B" }}className="card-title mt-3">We are Open Source</h5>
+          <p className="card-text">Lorem ipsum dummy text in print and website industry are usually use in these section</p>
+         </div>
+     
+         <div className="cards mb-5" style={{background:"rgba(43, 98, 201, 0.06)"}}>
+          <i className="lightIcon fas fa-lightbulb mt-4"></i>
+          <h5 style={{color:"#707DAC"}}className="card-title mt-3">Problem Solvers</h5>
+          <p className="card-text">Lorem ipsum dummy text in print and website industry are usually use in these section</p>
+         </div>
 
       
-       <DigiMarket 
-        icon={faThumbsUp}
-        style={{background:'rgba(43, 98, 201, 0.06)'}}
-        title= "Regular Updates And Bug fixes"
-        text="Lorem ipsum dummy text in print and website industry are usually use in these section" />
 
-       <DigiMarket 
-        icon={faGamepad}
-        style={{background:'rgba(255, 19, 10, 0.06)'}} 
-        title= "Extensions to step-up your game"
-        text="Lorem ipsum dummy text in print and website industry are usually use in these section"/>
-        
-        </div>
+         <div className="cards mb-5" style={{background:"background: rgba(0, 130, 255, 0.06)"}}>
+          <i className="handsIcon fas fa-hands-helping mt-4"></i>
+          <h5 style={{color:"#637595" }}className="card-title mt-3">Highly-Rated Support</h5>
+          <p className="card-text">Lorem ipsum dummy text in print and website industry are usually use in these section</p>
+         </div>
+      
+      
+         <div className="cards mb-5" style={{background:"rgba(233, 79, 68, 0.06)"}}>
+          <i className="puzzelIcon fas fa-puzzle-piece mt-4"></i>
+          <h5 style={{color:"#866E7D" }}className="card-title mt-3">Feature-Rich Free &amp; Pro Plugins</h5>
+          <p className="card-text">Lorem ipsum dummy text in print and website industry are usually use in these section</p>
+         </div>
+
+      
+         <div className="cards mb-5" style={{background:"rgba(26, 188, 156, 0.06)"}}>
+          <i className="powerIcon fab fa-superpowers mt-4"></i>
+          <h5 style={{color:"#607E70"}}className="card-title mt-3">Regular Updates &amp; Bug fixes</h5>
+          <p className="card-text">Lorem ipsum dummy text in print and website industry are usually use in these section</p>
+         </div>
+
+         <div className="cards mb-5" style={{background:"rgba(245, 166, 35, 0.06)"}}>
+          <i className="cogIcon fab fas fa-cog mt-4"></i>
+          <h5 style={{color:"#897C66"}}className="card-title mt-3">Extensions to step-up your game</h5>
+          <p className="card-text">Lorem ipsum dummy text in print and website industry are usually use in these section</p>
+         </div>
+
+      </div>
   </div>
 
 
