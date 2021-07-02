@@ -14,7 +14,7 @@ const Team = () => {
        />
     
      
-      <div className="row grid-3">
+      <div className="row grid-3 mb-5">
         
          <Teams 
          image="images/3(1).JPG"
