@@ -5,27 +5,39 @@ import  { NavLink }  from 'react-router-dom';
 const LastPart = () => {
     return(
        <div className="foot">
-           <div className="container">
-        <div className="row">
-            <div className="colL">
-                <h3>Leading Leadies</h3>
+        <hr />
+           <div className="container mt-5">
+           <div className="row justify-content-between">
+           <div className="col-md-4">
+        
+                <div className="row">
+                <h5>Leading Leadies</h5>
                 <p>Popularised in the with the release
                      of etras sheets containing passages and more rcently
                      with desop publishing software like Maker including.</p>
-                     <i></i>
-            </div>
-            <div className="col">
-                <h3>Products</h3>
-                <div>
+        
+                <div className="footer-icons">
+                  <NavLink to="/"><i className="footer-icon fIcon fab fa-facebook-f"></i></NavLink>
+                  <NavLink to="/"><i className="footer-icon tIcon fab fa-twitter"></i></NavLink>
+                  <NavLink to="/"><i className="footer-icon pIcon fab fa-pinterest-p"></i></NavLink>
+                  <NavLink to="/"><i className="footer-icon iIcon fab fa-linkedin-in"></i></NavLink>       
+                </div>
+        
+               </div>
+           </div>
+        
+           <div className="col-md-2">
+                 <h5>Products</h5>
                  <NavLink className="nav-link"to="/">My account</NavLink>
                  <NavLink className="nav-link"to="/">About Us</NavLink>
                  <NavLink className="nav-link"to="/">Checkout</NavLink>
                  <NavLink className="nav-link"to="/">Contact Us</NavLink>
                  <NavLink className="nav-link"to="/">Plugins</NavLink>
-                 </div>
+    
             </div>
-            <div className="col">
-                <h3>Resources</h3>
+        
+            <div className="col-md-2">
+                 <h5>Resources</h5>
                  <NavLink className="nav-link" to="/">About Us</NavLink>
                  <NavLink className="nav-link" to="/">My account</NavLink>
                  <NavLink className="nav-link"to="/">Themes</NavLink>
@@ -33,8 +45,9 @@ const LastPart = () => {
                  <NavLink className="nav-link"to="/">Checkout</NavLink>
 
             </div>
-            <div className="col">
-                <h3>Company</h3>
+        
+            <div className="col-md-2">
+                 <h5>Company</h5>
                  <NavLink className="nav-link"to="/">My account</NavLink>
                  <NavLink className="nav-link"to="/">About Us</NavLink>
                  <NavLink className="nav-link"to="/">Checkout</NavLink>
@@ -42,23 +55,25 @@ const LastPart = () => {
                  <NavLink className="nav-link"to="/">Plugins</NavLink>
 
             </div>
-            <div className="col">
-                <h3>Help and FAQs</h3>
+        
+            <div className="col-md-2">
+                 <h5>Help and FAQs</h5>
                  <NavLink className="nav-link" to="/">About Us</NavLink>
                  <NavLink className="nav-link"to="/">My account</NavLink>
                  <NavLink className="nav-link"to="/">Themes</NavLink>
                  <NavLink className="nav-link"to="/">Contact Us</NavLink>
                  <NavLink className="nav-link"to="/">Checkout</NavLink>
 
-           
-
-        </div> 
+            </div> 
+        
         </div>
-        </div>
+      </div>
+        
         <div className="footer">
         <p>Copyright © 2021 Leading Leadies All Rights Reserved.</p>
         </div>
-        </div>
+        
+  </div>
       
 
     );
