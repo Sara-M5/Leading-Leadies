@@ -61,6 +61,9 @@ p {
   font-size: 16px;
 }
 
+a {
+  text-decoration:none;
+}
 .card-first {
   margin-bottom: 120px;
 }
