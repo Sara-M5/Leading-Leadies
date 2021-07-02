@@ -83,6 +83,8 @@ const Contact = () => {
               Over 75,000 designers and developers trust the DigiMarket.
             </p>
           </div>
+         </div>
+        </div>
           <LastPart />
          
       
