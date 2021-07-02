@@ -11,11 +11,11 @@ const Team = () => {
     <Header 
        title="Team"
        subTitle="Team"
-       
        />
     
      
-    <div className="row mb-5 py-4">
+      <div className="row grid-3">
+        
          <Teams 
          image="images/3(1).JPG"
          name="Sanam Hamza"
@@ -34,7 +34,8 @@ const Team = () => {
          job="Web Developer"
          />
     
-     </div>
+      </div>
+        
     <LastPart />
    
     </div>
