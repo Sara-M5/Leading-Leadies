@@ -47,12 +47,31 @@ return (
    
                 <ul className="pagination justify-content-center my-5">
                 <span className="sr-only"></span>
-                <li className="page-item"><a className="page-link first active" href="#">1</a> </li>
-                <li className="page-item"><a className="page-link" href="#">2</a> </li>
-                <li className="page-item"><a className="page-link" href="#">3</a> </li>
-                <li className="page-item"><span className="page-link">...</span> </li>
-                <li className="page-item"><a className="page-link" href="#">4</a></li>
-                <li className="page-item"><a className="page-link" href="#">Next &#10095;</a> </li>
+    
+                <li className="page-item">
+                    <a className="page-link first active mx-1" href="#">1</a>
+                </li>
+    
+                <li className="page-item">
+                    <a className="page-link" href="#">2</a> 
+                </li>
+    
+                <li className="page-item">
+                    <a className="page-link mx-1" href="#">3</a> 
+                </li>
+    
+                <li className="page-item">
+                    <span className="page-link">...</span>
+                </li>
+    
+                <li className="page-item">
+                    <a className="page-link mx-1" href="#">4</a>
+                </li>
+    
+                <li className="page-item">
+                    <a className="page-link" href="#">Next &#10095;</a>
+                </li>
+    
                 <span className="sr-only"></span>
                 
              
