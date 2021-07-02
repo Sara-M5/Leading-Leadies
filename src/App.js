@@ -11,8 +11,11 @@ import Navbar from './Component/Navbar/Navbar';
 
 import Home from './Home';
 import About from './Pages/About/About';
-import Contact from './Pages/Contact/Contact';
 import ShopFullWidth from './Pages/Themes/ShopFullWidth/ShopFullWidth';
+import Contact from './Pages/Contact/Contact';
+import PricingPlan from './Pages/Pages/Pricing Plan/PricingPlan';
+import Service from './Pages/Pages/Services/Service';
+import Team from './Pages/Pages/Team/Team';
 
 
 class App extends Component {
@@ -34,7 +37,21 @@ class App extends Component {
             <ShopFullWidth />
             </Route>
 
-            
+             <Route path="/Service" exact>
+              <Service />
+            </Route>
+
+            <Route path="/PricingPlan" exact>
+              <PricingPlan />
+            </Route>
+
+            <Route path="/Team" exact>
+              <Team />
+            </Route>
+      
+            <Route path="/Contact" exact>
+              <Contact />
+            </Route>
 
             <Redirect to="/" />
           </Switch>
