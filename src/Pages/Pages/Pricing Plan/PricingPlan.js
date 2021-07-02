@@ -22,23 +22,20 @@ const PricingPlan = () => {
               <PricingPlans
                  title="Basic"
                  images="../images/pricing1.JPG"
-                 sign="$"
-                 Price="59"
+                 Price="$ 59"
                   />
 
               <PricingPlans 
                  title="Standard"
                  images="../images/pricing2.JPG"
-                 sign="$"
-                 Price= "59"
+                 Price="$ 59"
                   />
 
               <PricingPlans 
          
                  title="Premium"
                  images="../images/pricing3.JPG"
-                 sign="$"
-                 Price="120"
+                 Price="$ 129"
                  />
          </div>
       
