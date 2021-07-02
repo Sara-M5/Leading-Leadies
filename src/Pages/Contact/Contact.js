@@ -1,5 +1,3 @@
-import {  faEnvelope, faLocationArrow, faPhone,} from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import  React from 'react';
 import Header from '../../Parts/Header';
 import LastPart from '../../Parts/LastPart/LastPart';
@@ -22,12 +20,13 @@ const Contact = () => {
           </div>
 
           <div className="col-md-6 col-lg-5">
+        
             <div className="text-center">
               <h1>Get in touch</h1>
               <p>Nemo enim ipsam voluptatem quia voluptas</p>
-              </div>
+            </div>
+        
               <form className="form-group">
-              
                 <label for="name"></label>
                 <input className="form-control p-3" type="text" id="name" placeholder="Your name" />
 
@@ -44,27 +43,28 @@ const Contact = () => {
               </form>
 
           </div>
-          </div>
+      </div>
+        
          <div className="section1">
           <div className="row text-center" >
 
 
             <div className="cards"  style={{background:"white"}}>
-             <FontAwesomeIcon icon={faEnvelope} className="contactIcon" />
+             <i className="contactIcon fas fa-envelope"></i>
              <h3 className="card-title mt-5">Email Address</h3>
              <p className="card-text">info@example.com</p>
             </div>
             
          
              <div className="cards" style={{background:"white"}}>
-             <FontAwesomeIcon icon={faPhone} className="contactIcon" />
+             <i className="contactIcon fas fa-phone"></i>
              <h3 className="card-title mt-5">Phone Number</h3>
              <p className="card-text">+93 5676432976</p>
             </div>
 
 
             <div className="cards" style={{background:"white"}}>
-             <FontAwesomeIcon icon={faLocationArrow} className="contactIcon"/>
+             <i className="contactIcon fas fa-map-marked-alt"></i>
              <h3 className="card-title mt-5">Office Location</h3>
              <p className="card-text">202 New Hampshir Avenu, Kabul</p>
             </div>
@@ -73,7 +73,7 @@ const Contact = () => {
           </div>
          
           <div className="join">
-        <div className="row">
+          <div className="row">
           <div className="d-flex justify-content-between">
             <h1 className="textColor">Join Us Today </h1>
             <button className="btn px-4">Join Us Today</button>
