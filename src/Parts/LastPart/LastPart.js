@@ -28,41 +28,41 @@ const LastPart = () => {
         
            <div className="col-md-2">
                  <h5>Products</h5>
-                 <NavLink className="nav-link"to="/">My account</NavLink>
-                 <NavLink className="nav-link"to="/">About Us</NavLink>
-                 <NavLink className="nav-link"to="/">Checkout</NavLink>
-                 <NavLink className="nav-link"to="/">Contact Us</NavLink>
-                 <NavLink className="nav-link"to="/">Plugins</NavLink>
+                 <NavLink className="items nav-link"to="/">My account</NavLink>
+                 <NavLink className="items nav-link"to="/">About Us</NavLink>
+                 <NavLink className="items nav-link"to="/">Checkout</NavLink>
+                 <NavLink className="items nav-link"to="/">Contact Us</NavLink>
+                 <NavLink className="items nav-link"to="/">Plugins</NavLink>
     
             </div>
         
             <div className="col-md-2">
                  <h5>Resources</h5>
-                 <NavLink className="nav-link" to="/">About Us</NavLink>
-                 <NavLink className="nav-link" to="/">My account</NavLink>
-                 <NavLink className="nav-link"to="/">Themes</NavLink>
-                 <NavLink className="nav-link"to="/">Contact Us</NavLink>
-                 <NavLink className="nav-link"to="/">Checkout</NavLink>
+                 <NavLink className="items nav-link" to="/">About Us</NavLink>
+                 <NavLink className="items nav-link" to="/">My account</NavLink>
+                 <NavLink className="items nav-link"to="/">Themes</NavLink>
+                 <NavLink className="items nav-link"to="/">Contact Us</NavLink>
+                 <NavLink className="items nav-link"to="/">Checkout</NavLink>
 
             </div>
         
             <div className="col-md-2">
                  <h5>Company</h5>
-                 <NavLink className="nav-link"to="/">My account</NavLink>
-                 <NavLink className="nav-link"to="/">About Us</NavLink>
-                 <NavLink className="nav-link"to="/">Checkout</NavLink>
-                 <NavLink className="nav-link"to="/">Contact Us</NavLink>
-                 <NavLink className="nav-link"to="/">Plugins</NavLink>
+                 <NavLink className="items nav-link"to="/">My account</NavLink>
+                 <NavLink className="items nav-link"to="/">About Us</NavLink>
+                 <NavLink className="items nav-link"to="/">Checkout</NavLink>
+                 <NavLink className="items nav-link"to="/">Contact Us</NavLink>
+                 <NavLink className="items nav-link"to="/">Plugins</NavLink>
 
             </div>
         
             <div className="col-md-2">
                  <h5>Help and FAQs</h5>
-                 <NavLink className="nav-link" to="/">About Us</NavLink>
-                 <NavLink className="nav-link"to="/">My account</NavLink>
-                 <NavLink className="nav-link"to="/">Themes</NavLink>
-                 <NavLink className="nav-link"to="/">Contact Us</NavLink>
-                 <NavLink className="nav-link"to="/">Checkout</NavLink>
+                 <NavLink className="items nav-link" to="/">About Us</NavLink>
+                 <NavLink className="items nav-link"to="/">My account</NavLink>
+                 <NavLink className="items nav-link"to="/">Themes</NavLink>
+                 <NavLink className="items nav-link"to="/">Contact Us</NavLink>
+                 <NavLink className="items nav-link"to="/">Checkout</NavLink>
 
             </div> 
         
