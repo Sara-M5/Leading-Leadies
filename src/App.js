@@ -12,6 +12,8 @@ import Navbar from './Component/Navbar/Navbar';
 import Home from './Home';
 import About from './Pages/About/About';
 import Contact from './Pages/Contact/Contact';
+import ShopFullWidth from './Pages/Themes/ShopFullWidth/ShopFullWidth';
+
 
 class App extends Component {
   render() {
@@ -23,13 +25,16 @@ class App extends Component {
             <Route path="/" exact>
               <Home />
             </Route>
+      
             <Route path="/About" exact>
               <About />
             </Route>
-
-            <Route path="/Contact" exact>
-              <Contact />
+      
+            <Route path="/ShopFullWidth" exact>
+            <ShopFullWidth />
             </Route>
+
+            
 
             <Redirect to="/" />
           </Switch>
