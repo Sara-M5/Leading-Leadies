@@ -1,5 +1,5 @@
 import React from 'react';
-import PricingPlans from '../../../Component/PricingPlan/PricingPlans';
+import PricingPlans from '../../../Component/PricingPlan/PricingPlan';
 import Header from '../../../Parts/Header';
 import LastPart from '../../../Parts/LastPart/LastPart';
 
@@ -17,7 +17,7 @@ const PricingPlan = () => {
     
    
    
-    <div className="row text-center">
+         <div className="row text-center grid-3">
         
               <PricingPlans
                  title="Basic"
