@@ -1,5 +1,4 @@
 import React from 'react';
-import './ShopRightSidebar.css';
 import Cards from '../../Component/Cards/Cards';
 import LastPart from '../../Parts/LastPart/LastPart';
 import Sidebar from '../../Component/Sidebar/Sidebar';
@@ -7,10 +6,10 @@ import Sidebar from '../../Component/Sidebar/Sidebar';
 
 const ShopRightSidebar = () =>{
     return(
-         <div > 
+       <div > 
              
        <div className="breadcrumb-banner">
-       <div className="container">
+         <div className="container">
            <h1 className="text-white py-4">Products</h1> 
            <ol className="breadcrumb text-white">
            <li className="breadcrumb-item"><a className="link text-white" href="/Home">Home</a> </li>
@@ -19,8 +18,8 @@ const ShopRightSidebar = () =>{
            <li><span className="px-2"> &#10095;&#10095;</span></li>
            <li className="active ">Products</li>
            </ol>
-           </div>
-           </div>
+         </div>
+       </div>
 
 
 
@@ -52,7 +51,7 @@ const ShopRightSidebar = () =>{
         </div>
           
           <div className="row">
-              <div className="col-md-4 ">
+              <div className="col-md-8 grid-3">
                
               <Cards 
                   title= "MyAgency"
@@ -60,7 +59,7 @@ const ShopRightSidebar = () =>{
                   newPrice= "&#36;59.00  &ndash; &#36;199.00"
                   text= "Photography WordPress Theme" />
 
-                <Cards
+              <Cards
                   title="AppSo"
                   images="../images/3.JPG"
                   newPrice="&#36;39.00"
@@ -70,27 +69,24 @@ const ShopRightSidebar = () =>{
                   title= "BenchMark"
                   images="../images/5.JPG"
                   newPrice= "&#36;159.00 &ndash; &#36;199.00"
-                  text="Photography WordPress Theme"
-                  
-               />
+                  text="Photography WordPress Theme" />
              
-               </div>
-               <div className="col-md-4 col-lg-4">
-               <Cards 
+              
+              <Cards 
                   title= "Birdily"
                   images="../images/9.JPG"
                   newPrice= "$20.00"
                   oldPrice="$40.00"
                   text="Photography WordPress Theme"/>
              
-             <Cards 
+              <Cards 
                   title="Fourmusic"
                   images="../images/7.JPG"
                   newPrice="&#36;69.00"
                   text="Photography WordPress Theme" />
               
 
-                <Cards 
+               <Cards 
                   title= "Daeron"
                   images="../images/10.JPG"
                   newPrice= "$59.00"
@@ -100,7 +96,7 @@ const ShopRightSidebar = () =>{
           
            </div>
 
-           <div className="col-lg-4 col-md-4">
+           <div className="col-md-4">
              <Sidebar />          
             </div>
 
@@ -110,7 +106,7 @@ const ShopRightSidebar = () =>{
             <ul className="pagination justify-content-center my-5">
                 <span className="sr-only"></span>
                 <li className="page-item"><a className="page-link first active" href="#">1</a></li>
-                <li className="page-item"> <a className="page-link" href="#">2</a></li>
+                <li className="page-item"> <a className="page-link mx-2" href="#">2</a></li>
                 <li className="page-item"><a className="next page-link" href="#">Next &#10095;</a></li>
                 <span className="sr-only"></span>
             </ul>
