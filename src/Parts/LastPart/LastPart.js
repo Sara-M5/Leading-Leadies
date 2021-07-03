@@ -59,10 +59,10 @@ const LastPart = () => {
             <div className="col-md-2">
                  <h5>Help and FAQs</h5>
                  <NavLink className="items nav-link" to="/">About Us</NavLink>
-                 <NavLink className="items nav-link"to="/">My account</NavLink>
-                 <NavLink className="items nav-link"to="/">Themes</NavLink>
-                 <NavLink className="items nav-link"to="/">Contact Us</NavLink>
-                 <NavLink className="items nav-link"to="/">Checkout</NavLink>
+                 <NavLink className="items nav-link" to="/">My account</NavLink>
+                 <NavLink className="items nav-link" to="/">Themes</NavLink>
+                 <NavLink className="items nav-link" to="/">Contact Us</NavLink>
+                 <NavLink className="items nav-link" to="/">Checkout</NavLink>
 
             </div> 
         
