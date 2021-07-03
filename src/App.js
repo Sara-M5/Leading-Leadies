@@ -12,6 +12,7 @@ import Navbar from './Component/Navbar/Navbar';
 import Home from './Home';
 import About from './Pages/About/About';
 import ShopFullWidth from './Pages/Themes/ShopFullWidth/ShopFullWidth';
+import ShopRightSidebar from './Pages/Themes/ShopRightSidebar';
 import Contact from './Pages/Contact/Contact';
 import PricingPlan from './Pages/Pages/Pricing Plan/PricingPlan';
 import Service from './Pages/Pages/Services/Service';
@@ -35,6 +36,10 @@ class App extends Component {
       
             <Route path="/ShopFullWidth" exact>
             <ShopFullWidth />
+            </Route>
+      
+            <Route path="/ShopRightSidebar" exact>
+            <ShopRightSidebar/>
             </Route>
 
              <Route path="/Service" exact>
