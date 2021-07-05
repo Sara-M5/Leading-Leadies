@@ -17,6 +17,8 @@ import Contact from './Pages/Contact/Contact';
 import PricingPlan from './Pages/Pages/Pricing Plan/PricingPlan';
 import Service from './Pages/Pages/Services/Service';
 import Team from './Pages/Pages/Team/Team';
+import Blog from './Pages/Pages/Blog/Blog';
+import Login from './Pages/Pages/Login/Login';
 
 
 class App extends Component {
@@ -56,6 +58,14 @@ class App extends Component {
       
             <Route path="/Contact" exact>
               <Contact />
+            </Route>
+      
+            <Route path="/Blog" exact>
+              <Blog />
+            </Route>
+      
+            <Route path="/Login" exact>
+              <Login />
             </Route>
 
             <Redirect to="/" />
