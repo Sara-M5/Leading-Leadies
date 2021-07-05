@@ -5,16 +5,11 @@
  border-radius: 5px;
 
 }
-.blogInfo{
+.blogInfo {
     color: #808080;
     margin-left: 15px;
 }
-.blogDesc{
-    line-height: 18px;
-    font-style: normal;
-    font-size: 14px;
-}
-.blogDate{
-   
+
+.blogDate {
     font-size: 12px;
 }
