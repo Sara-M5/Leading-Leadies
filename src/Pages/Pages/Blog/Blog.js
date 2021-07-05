@@ -13,7 +13,7 @@ const Blog = () => {
        />
        <div className="row">
     
-           <div className="col-md-8 col-sm-4">
+           <div className="col-md-8">
           
               <Post
                images="../images/6.JPG"
@@ -38,15 +38,10 @@ const Blog = () => {
                
 
            </div>
-           <div className="col-md-4 my-5">  
-         
-              
-                <div className="row">
-                   <BlogSidebar />
-                </div>
-
-            
+           <div className="col-md-4 my-5">      
+               <BlogSidebar />
            </div>
+          
        </div>
 
   
