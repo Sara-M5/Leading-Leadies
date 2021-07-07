@@ -16,7 +16,7 @@ const Sidebar = () =>{
    <li className="blogSidebarItem d-flex justify-content-between">
       <img className="sidebarImg" src="../images/6.JPG" alt=""/>
    <div className="blogInfo">
-      <NavLink className="item" to="#">The best advice to start your own project</NavLink><br /> 
+      <NavLink className="item" to="to="/Posts"">The best advice to start your own project</NavLink><br /> 
        <span className="blogDate">Octobar 29,2018</span>
    </div>
    </li>
@@ -30,7 +30,7 @@ const Sidebar = () =>{
    <li className="blogSidebarItem d-flex justify-content-between">
       <img className="sidebarImg" src="../images/2.JPG" alt=""/>
    <div className="blogInfo">
-        <NavLink  to="#" className="item">Best Free Responsive WordPress Themes ...</NavLink><br />
+        <NavLink  to="/Posts" className="item">Best Free Responsive WordPress Themes ...</NavLink><br />
        <span className="blogDate">May 11,2018</span>
    </div>
    </li>
