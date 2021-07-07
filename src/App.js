@@ -19,6 +19,7 @@ import Service from './Pages/Pages/Services/Service';
 import Team from './Pages/Pages/Team/Team';
 import Blog from './Pages/Pages/Blog/Blog';
 import Login from './Pages/Pages/Login/Login';
+import Posts from './Pages/Pages/Blog/Posts/Posts';
 
 
 class App extends Component {
@@ -66,6 +67,10 @@ class App extends Component {
       
             <Route path="/Login" exact>
               <Login />
+            </Route>
+      
+            <Route path="/Posts" exact>
+              <Posts />
             </Route>
 
             <Redirect to="/" />
