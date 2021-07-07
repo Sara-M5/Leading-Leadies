@@ -16,7 +16,7 @@ const Sidebar = () =>{
    <li className="blogSidebarItem d-flex justify-content-between">
       <img className="sidebarImg" src="../images/6.JPG" alt=""/>
    <div className="blogInfo">
-      <NavLink className="item" to="to="/Posts"">The best advice to start your own project</NavLink><br /> 
+      <NavLink className="item" to="/Posts">The best advice to start your own project</NavLink><br /> 
        <span className="blogDate">Octobar 29,2018</span>
    </div>
    </li>
