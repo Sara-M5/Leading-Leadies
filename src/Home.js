@@ -10,7 +10,8 @@ import LatestFromBlog from './Component/LatestFromBlog/LatestFromBlog';
 import PricingPlan from './Component/PricingPlan/PricingPlan';
 import LastPart from './Parts/LastPart/LastPart';
 import ClientFeedback from './Parts/ClientFeedback/ClientFeedback';
-import DigiMarket from './Component/DigiMarket/DigiMarket';
+import DigiMarkets from './Component/DigiMarket/DigiMarkets';
+import Product from './Component/Cards/Product';
 
 const Home = () => {
   return (
@@ -83,72 +84,8 @@ const Home = () => {
           <button>eCommerce</button>
           <button>Joomla</button>
         </div>
-
-        <div className="row grid-3">
-          <Cards
-            title="MyAgency"
-            images="../images/2.JPG"
-            newPrice="$59.00 - $199.00"
-            text="Photography WordPress Theme"
-          />
-
-          <Cards
-            title="AppSo"
-            images="../images/3.JPG"
-            newPrice="$39.00"
-            text="Photography WordPress Theme"
-          />
-
-          <Cards
-            title="Munio"
-            images="../images/4.JPG"
-            newPrice=" $19.00"
-            oldPrice="$49.00"
-            text="Photography WordPress Theme"
-          />
-          <Cards
-            title="BenchMark"
-            images="../images/5.JPG"
-            newPrice="$159.00 - $199.00"
-            text="Photography WordPress Theme"
-          />
-
-          <Cards
-            title="Instive"
-            images="../images/6.JPG"
-            newPrice="$39.00"
-            text="Photography WordPress Theme"
-          />
-          <Cards
-            title="Fourmusic"
-            images="../images/7.JPG"
-            newPrice="$69.00"
-            text="Photography WordPress Theme"
-          />
-          <Cards
-            title="Avtorai"
-            images="../images/8.JPG"
-            newPrice="$40.00"
-            text="Photography WordPress Theme"
-          />
-
-          <Cards
-            title="Birdily"
-            images="../images/9.JPG"
-            newPrice="$20.00"
-            oldPrice="$40.00"
-            text="Photography WordPress Theme"
-          />
-
-          <Cards
-            title="Daeron"
-            images="../images/10.JPG"
-            newPrice="$59.00"
-            oldPrice="$79.00"
-            text="Photography WordPress Theme"
-          />
-        </div>
-
+        <Product />
+    
         <div className="center1">
           <button className="product">More Products</button>
         </div>
@@ -180,38 +117,7 @@ const Home = () => {
 
       <div className="section">
         <Text title="DigiMarket Features" />
-
-        <div className="row">
-          <DigiMarket
-            title="We are Open Source"
-            text="Lorem ipsum dummy text in print and website industry are usually use in these section"
-          />
-          <DigiMarket
-            title="Problem Solvers"
-            text="Lorem ipsum dummy text in print and website industry are usually use in these section"
-          />
-          <DigiMarket
-            title="Highly-Rated Support"
-            text="Lorem ipsum dummy text in print and website industry are usually use in these section"
-          />
-        </div>
-
-        <div className="row">
-          <DigiMarket
-            title="Feature-Rich Free And Pro Plugins"
-            text="Lorem ipsum dummy text in print and website industry are usually use in these section"
-          />
-
-          <DigiMarket
-            title="Regular Updates And Bug fixes"
-            text="Lorem ipsum dummy text in print and website industry are usually use in these section"
-          />
-
-          <DigiMarket
-            title="Extensions to step-up your game"
-            text="Lorem ipsum dummy text in print and website industry are usually use in these section"
-          />
-        </div>
+        <DigiMarkets />
       </div>
 
       <div className="center">
