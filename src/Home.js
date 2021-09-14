@@ -12,6 +12,7 @@ import LastPart from './Parts/LastPart/LastPart';
 import ClientFeedback from './Parts/ClientFeedback/ClientFeedback';
 import DigiMarkets from './Component/DigiMarket/DigiMarkets';
 import Product from './Component/Cards/Product';
+import {Data} from './Parts/ClientFeedback/Data';
 
 const Home = () => {
   return (
@@ -124,12 +125,7 @@ const Home = () => {
         <Text title="Our Clients Feedback" />
       </div>
 
-      <ClientFeedback
-        images="../images/3(1).JPG"
-        text="Awesome Product highly recomended Lorem ipsum dolor alamet, nsectetur mayalipol tempor eiusmod tempor recomended Lorem ipsum dolor alamet, nsec tetur mayalipol tempor eiusmod tempor incubto ectetur alasiqua enim ad nim veniam, quis nostrud ullam "
-        name="Nancoda Mao"
-        job="Ui/Ux Designer And Product Designer "
-      />
+     <ClientFeedback slides={Data} />
 
       <div className="section">
         <Text title="Pricing Plan" />
