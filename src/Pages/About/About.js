@@ -6,6 +6,7 @@ import LastPart from '../../Parts/LastPart/LastPart';
 import Teams from './Teams'
 import './About.css';
 import Header from '../../Parts/Header';
+import { Data } from '../../Parts/ClientFeedback/Data';
 
 
 const About = ()  => {
@@ -33,7 +34,7 @@ const About = ()  => {
     <div className="section">
     <Text title="Our Awesome Team" />
     
-     <div className="row grid-3">
+     <div className="row grid-3  mb-5">
          <Teams 
          image="images/3(1).JPG"
          name="Sanam Hamza"
@@ -89,14 +90,7 @@ const About = ()  => {
 
           <div className="section">
           <Text title="Our Clients Feedback" />
-          
-
-          <ClientFeedback 
-           images="../images/3(1).JPG"
-           text="Awesome Product highly recomended Lorem ipsum dolor alamet, nsectetur mayalipol tempor eiusmod tempor recomended Lorem ipsum dolor alamet, nsec tetur mayalipol tempor eiusmod tempor incubto ectetur alasiqua enim ad nim veniam, quis nostrud ullam "
-           name="Nancoda Mao"
-           job="Ui/Ux Designer &amp; Product Designer "
-          />
+           <ClientFeedback slides={Data} />
           </div>
          
         <div className="join">
