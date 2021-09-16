@@ -5,7 +5,7 @@ import  { NavLink }  from 'react-router-dom';
 const LastPart = () => {
     return(
        <div className="foot">
-        <hr />
+        <hr className="mt-0"/>
            <div className="container mt-5">
            <div className="row justify-content-between">
            <div className="col-md-4">
