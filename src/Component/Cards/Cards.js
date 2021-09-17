@@ -4,7 +4,7 @@ import './Cards.css';
 const Cards = (props) => {
   return (
     <div className="card p-0">
-      <div className="card_img">
+      <div className="card_img" data-category={props.label}>
         <img className="img" src={props.images} />
       </div>
       <div className="card-body p-4">
