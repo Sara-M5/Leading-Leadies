@@ -58,34 +58,9 @@ const About = ()  => {
 
     
 
-     <div className="row center">
-       
-          <div className="col-md-3">
-          <Description
-          images= "../images/logo1.JPG"
-          amount= "30"
-          text="Total Items" />
-          </div>
-
-          <div className="col-md-3">
-          <Description
-          images= "../images/logo2.JPG"
-          amount="48"
-          text="Total Sells"/></div>
-          <div className="col-md-3">
-          <Description
-          images="../images/logo3.JPG"
-          amount="104"
-          text="Customers" />
-          </div>
-          <div className="col-md-3">
-          <Description
-          images="../images/logo4.JPG"
-          amount="45"
-          text="Rating" />
-          </div>
-        
-          </div>
+         <div className="row center">
+             <Description />
+         </div>
           
 
           <div className="section">
