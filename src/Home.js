@@ -13,13 +13,14 @@ import ClientFeedback from './Parts/ClientFeedback/ClientFeedback';
 import DigiMarkets from './Component/DigiMarket/DigiMarkets';
 import Product from './Component/Cards/Product';
 import {Data} from './Parts/ClientFeedback/Data';
+import ScrollToTop from './Component/Scroll/ScrollToTop';
 
 const Home = () => {
   return (
     <div>
       <Banner />
       <Logo />
-
+      <ScrollToTop />
       <div className="container">
         <div className="card-first">
           <div className="row">
@@ -78,8 +79,8 @@ const Home = () => {
       <div className="section">
         <Text title="All Items" />
 
-        <div className="center1">
-          <button className="product">All Items</button>
+        <div className="item-button text-center">
+          <button style={{color:"#fff", background:"linear-gradient(to right, #FF416C, #FF4B2B)"}}>All Items</button>
           <button>Site Template</button>
           <button>CMS Theme</button>
           <button>eCommerce</button>
@@ -87,33 +88,13 @@ const Home = () => {
         </div>
         <Product />
     
-        <div className="center1">
-          <button className="product">More Products</button>
+        <div className="text-center">
+          <button className="product"><i className="fa fa-cart-arrow-down"></i>More Products</button>
         </div>
       </div>
 
       <div className="row">
-        <div className="d-flex justify-content-between">
-          <Description
-            images="../images/logo1.JPG"
-            amount="30"
-            text="Total Items"
-          />
-
-          <Description
-            images="../images/logo2.JPG"
-            amount="48"
-            text="Total Sells"
-          />
-
-          <Description
-            images="../images/logo3.JPG"
-            amount="104"
-            text="Customers"
-          />
-
-          <Description images="../images/logo4.JPG" amount="45" text="Rating" />
-        </div>
+       <Description />
       </div>
 
       <div className="section">
@@ -129,27 +110,9 @@ const Home = () => {
 
       <div className="section">
         <Text title="Pricing Plan" />
-        <div className="center1">
-          <div className="row grid-3">
-            <PricingPlan
-              title="Basic"
-              images="../images/pricing1.JPG"
-              Price="$ 59"
-            />
-
-            <PricingPlan
-              title="Standard"
-              images="../images/pricing2.JPG"
-              Price="$ 59"
-            />
-
-            <PricingPlan
-              title="Premium"
-              images="../images/pricing3.JPG"
-              Price="$ 120"
-            />
+          <div className="row text-center">
+           <PricingPlan  />
           </div>
-        </div>
       </div>
 
       <div className="center1">
