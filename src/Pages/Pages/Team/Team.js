@@ -19,19 +19,19 @@ const Team = () => {
          <Teams 
          image="images/3(1).JPG"
          name="Sanam Hamza"
-         job="Web Developer"
+         job="Software Engineer"
          />
 
         <Teams
          image="images/team2.jpg"
          name="Sara Mahmoodi"
-         job="Web Developer"
+         job="Software Engineer"
          />
 
         <Teams
          image="images/3(3).JPG"
          name="Zohra Baraki"
-         job="Web Developer"
+         job="Software Engineer"
          />
     
       </div>
