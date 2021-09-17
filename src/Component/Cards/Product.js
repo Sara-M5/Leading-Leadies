@@ -23,14 +23,16 @@ const Product = () => {
                   title = "Avtorai"
                   images="../images/8.JPG"
                   newPrice= "$40.00"
-                  text="Photography WordPress Theme" />
+                  text="Photography WordPress Theme"
+                  label="Sale" />
 
               
                   <Cards
                   title="AppSo"
                   images="../images/3.JPG"
                   newPrice="&#36;39.00"
-                  text="Photography WordPress Theme" />
+                  text="Photography WordPress Theme"
+                  label="Sale" />
                   
                   <Cards 
                   title=  "Instive"
