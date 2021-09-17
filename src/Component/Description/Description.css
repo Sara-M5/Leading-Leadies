@@ -1,17 +1,33 @@
-.info{
-    border-radius: 50%;
-    width:120px;
-    height:120px;
-    
+.total {
+    font-size: 52px;
 }
-.total{
-    margin-top: 15px;
-    font-size: 50px;
-}
-.desc{
 
-    margin: 60px ;
-    justify-content: space-between;
+.counter-icon i {
+    color: #ffffff;
+    border-radius: 50%;
+    font-size: 38px;
+    padding: 15px;
+    height: 100px;
+    width: 100px;
     text-align: center;
-    
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    margin-bottom: 25px;   
+}
+
+.user-icon {
+    background-image: linear-gradient(180deg, #24EEFC 0%, #236DFC 180%);
+}
+
+.store-icon {
+    background-image: linear-gradient(180deg, #FF6167 0%, #FF0E27 180%);
+}
+
+.envira1-icon {
+    background-image: linear-gradient(180deg, #E08BFC 0%, #7357FB 180%);
+}
+
+.envira2-icon {
+    background-image: linear-gradient(180deg, #00E31D 0%, #00C0CE 180%);
 }
