@@ -1,7 +1,7 @@
 import React from 'react'; 
 import './Description.css'
 
-const Description = (props) => {
+const Description = () => {
     return (  
          <div class="row text-center mt-5">
                 <div className="counter-icon col-md-3 mb-3">
