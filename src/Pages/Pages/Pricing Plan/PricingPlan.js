@@ -17,26 +17,8 @@ const PricingPlan = () => {
     
    
    
-         <div className="row text-center grid-3">
-        
-              <PricingPlans
-                 title="Basic"
-                 images="../images/pricing1.JPG"
-                 Price="$ 59"
-                  />
-
-              <PricingPlans 
-                 title="Standard"
-                 images="../images/pricing2.JPG"
-                 Price="$ 59"
-                  />
-
-              <PricingPlans 
-         
-                 title="Premium"
-                 images="../images/pricing3.JPG"
-                 Price="$ 129"
-                 />
+         <div className="row text-center">
+               <PricingPlans />
          </div>
       
          <LastPart />
