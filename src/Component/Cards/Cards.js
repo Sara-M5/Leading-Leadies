@@ -1,9 +1,9 @@
-import React from 'react';
-import './Cards.css';
+import React from "react";
+import "./Cards.css";
 
 const Cards = (props) => {
   return (
-    <div className="card p-0">
+    <div className="card p-0 position-relative">
       <div className="card_img" data-category={props.label}>
         <img className="img" src={props.images} />
       </div>
@@ -13,6 +13,13 @@ const Cards = (props) => {
         <div className="priceGroup">
           <div className="oldPrice">{props.oldPrice}</div>
           <div className="newPrice">{props.newPrice}</div>
+        </div>
+      </div>
+      <div className="cardOverlay">
+        <div className="d-flex flex-column gap-3 align-items-center justify-content-center h-100">
+          <button>Preview</button>
+          <button>Details</button>
+          <button>Add to cart</button>
         </div>
       </div>
     </div>

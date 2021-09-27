@@ -1,26 +1,38 @@
-import React from 'react';
+import React, { useState, useEffect } from "react";
 
-import Text from './Parts/Text/Text';
-import Banner from './Parts/Banner/Banner';
-import Logo from './Parts/Logo/Logo';
-import Cards from './Component/Cards/Cards';
-import WhyChooseUs from './Component/WhyChooseUs/WhyChooseUs';
-import Description from './Component/Description/Description';
-import LatestFromBlog from './Component/LatestFromBlog/LatestFromBlog';
-import PricingPlan from './Component/PricingPlan/PricingPlan';
-import LastPart from './Parts/LastPart/LastPart';
-import ClientFeedback from './Parts/ClientFeedback/ClientFeedback';
-import DigiMarkets from './Component/DigiMarket/DigiMarkets';
-import Product from './Component/Cards/Product';
-import {Data} from './Parts/ClientFeedback/Data';
-import ScrollToTop from './Component/Scroll/ScrollToTop';
+import Text from "./Parts/Text/Text";
+import Banner from "./Parts/Banner/Banner";
+import Logo from "./Parts/Logo/Logo";
+import Cards from "./Component/Cards/Cards";
+import WhyChooseUs from "./Component/WhyChooseUs/WhyChooseUs";
+import Description from "./Component/Description/Description";
+import LatestFromBlog from "./Component/LatestFromBlog/LatestFromBlog";
+import PricingPlan from "./Component/PricingPlan/PricingPlan";
+import LastPart from "./Parts/LastPart/LastPart";
+import ClientFeedback from "./Parts/ClientFeedback/ClientFeedback";
+import DigiMarkets from "./Component/DigiMarket/DigiMarkets";
+import Product from "./Component/Cards/Product";
+import { Data } from "./Parts/ClientFeedback/Data";
+import ScrollToTop from "./Component/Scroll/ScrollToTop";
 
 const Home = () => {
+  const [showScroll, setShowScroll] = useState(false);
+
+  useEffect(() => {
+    function handleScrollToTop() {
+      window.scrollY > 0 ? setShowScroll(true) : setShowScroll(false);
+    }
+
+    window.addEventListener("scroll", handleScrollToTop);
+
+    return () => window.removeEventListener("scroll", handleScrollToTop);
+  });
+
   return (
     <div>
       <Banner />
       <Logo />
-      <ScrollToTop />
+      {showScroll && <ScrollToTop />}
       <div className="container">
         <div className="card-first">
           <div className="row">
@@ -80,21 +92,30 @@ const Home = () => {
         <Text title="All Items" />
 
         <div className="item-button text-center">
-          <button style={{color:"#fff", background:"linear-gradient(to right, #FF416C, #FF4B2B)"}}>All Items</button>
+          <button
+            style={{
+              color: "#fff",
+              background: "linear-gradient(to right, #FF416C, #FF4B2B)",
+            }}
+          >
+            All Items
+          </button>
           <button>Site Template</button>
           <button>CMS Theme</button>
           <button>eCommerce</button>
           <button>Joomla</button>
         </div>
         <Product />
-    
+
         <div className="text-center">
-          <button className="product"><i className="fa fa-cart-arrow-down"></i>More Products</button>
+          <button className="product">
+            <i className="fa fa-cart-arrow-down"></i>More Products
+          </button>
         </div>
       </div>
 
       <div className="row">
-       <Description />
+        <Description />
       </div>
 
       <div className="section">
@@ -106,13 +127,13 @@ const Home = () => {
         <Text title="Our Clients Feedback" />
       </div>
 
-     <ClientFeedback slides={Data} />
+      <ClientFeedback slides={Data} />
 
       <div className="section">
         <Text title="Pricing Plan" />
-          <div className="row text-center">
-           <PricingPlan  />
-          </div>
+        <div className="row text-center">
+          <PricingPlan />
+        </div>
       </div>
 
       <div className="center1">
